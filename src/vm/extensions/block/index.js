@@ -45,7 +45,7 @@ class ExtensionBlocks {
     static get EXTENSION_NAME () {
         return formatMessage({
             id: 'myExtension.name',
-            default: ''My',
+            default: 'myExtension',
             description: 'name of the extension'
         });
     }
